@@ -1,0 +1,302 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.tofu{
+
+
+  height: 300vh;
+width: 100%;
+
+
+}
+ul.u{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+
+
+  
+  
+  right: 0px;
+  list-style-type: none;
+  background-color: rgb(34, 30, 30);
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  
+}
+
+li.l{
+  float: left;
+ /* border-right: 1px solid green;*/
+  
+}
+/*li:last-child{
+  border-right: none;
+}*/
+li.l {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+li.l:hover:not(.active){
+  background-color: grey;
+}
+/*.active{
+  background-color: lawngreen;
+  color: black;
+
+}*/
+
+.sec1{
+  width: 100%;
+     height: 100vh;
+    
+     /*background: linear-gradient(57deg,#00c6a7,#353b48,#1e4d92);*/
+     background:#353b48;
+     clip-path: polygon(0% 0%,100% 0%,100% 75%,0% 100%);
+}
+
+
+
+
+
+
+.img{
+width: 300px;
+  position: relative;
+  top: 5px;
+  left:1035px;
+  
+  height:"420px" ;
+  opacity: 0.5;
+  border: 2px solid black;
+  filter: grayscale(100%);
+  
+  }
+
+
+
+h1{
+position: absolute;
+top: 20%;
+left: 20%;
+font-size: 100px;
+
+}
+h2{
+  text-align: center;
+}
+
+.po{
+  text-align: center;
+}
+.btn{
+  border: 2px solid black;
+  color: black;
+  cursor: copy;
+}
+
+
+
+/*.container{
+
+
+
+  width: 500px;
+  margin: 50px auto 0;
+  padding: 20px;
+}
+
+
+li{
+position: relative;
+list-style: none;
+margin: 50px 0;
+font-weight: 500;
+text-transform: uppercase;
+}
+li::before{
+
+content: "";
+position: absolute;
+top: calc(100% + 10px);
+left: 0;
+width: 100%;
+height: 15px;
+background-color: rgba(54,126,223,.5);
+border-radius: 1000px;
+
+
+
+}
+li::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 0;
+  height: 15px;
+  background-color: rgba(54,126,223,.5);
+  border-radius: 1000px;
+  animation-duration: .7s;
+animation-timing-function: ease;
+
+animation-fill-mode: forwards;
+}
+li.html::after{
+  animation-name: html;
+}
+@keyframes html{
+to{
+
+
+  width: 90%;
+}
+
+
+
+
+}
+li.css::after{
+  animation-name: html;
+}
+@keyframes css{
+to{
+
+
+  width: 40%;
+}
+}
+
+li.javascript::after{
+  animation-name: html;
+}
+@keyframes javascript{
+to{
+
+
+  width: 20%;
+}
+}
+
+li.bostrap::after{
+  animation-name: html;
+}
+@keyframes bostrap{
+to{
+
+
+  width: 100%;
+}
+}*/
+
+*{
+  font-family: sans-serif;
+  list-style: none;
+  padding: 0;
+}
+h3{
+color: black;
+
+}
+.skills{
+  width: 500px;
+  margin: 60px auto;
+  color: white;
+}
+.skills li{
+  margin: 20px 0;
+}
+.bar{
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solidgreen;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.bar span{
+  height: 10px;
+  float: left;
+  background: #2187e7;
+}
+.html{
+  width: 90%;
+  animation: html 2s;
+}
+.css{
+  width: 70%;
+  animation: css 2s;
+}
+
+.javascript{
+  width: 50%;
+  animation: javascript 2s;
+}
+
+.jquery{
+  width: 40%;
+  animation: jquery 2s;
+}
+
+@keyframes html{
+
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes css{
+
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+@keyframes javascript{
+
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+@keyframes jquery{
+
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+
+.t{
+  padding: 16px;
+  width: 700px;
+}
+footer {
+  background-color: #777;
+  padding: 60px;
+  text-align: center;
+  color: black;
+  opacity: 5.0;
+}
+footer:hover{
+  background: black;
+}
